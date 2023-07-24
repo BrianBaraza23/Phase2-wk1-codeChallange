@@ -61,19 +61,18 @@ th, td {
 }
 
 
-form input,
-form select,
-form textarea {
-  height: 30px;
-  width: 20%;
-  box-sizing: border-box; 
-  margin: 10px;
-  margin-bottom: 10px;
+
+input {
+  width: 25% !important;
+  margin-right: 0.25em!important;
+  margin-left: 0.25em!important;
 }
-
-
-
-
+.navbar-brand{
+  font-size: 40px;
+}
+.navbar-brand img{
+  padding-right: 3%;
+}
 
 
 

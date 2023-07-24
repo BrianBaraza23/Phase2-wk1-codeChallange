@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import FormComponent from './Components/Form';
-import BalanceComponent from './Components/BalanceTable';
-import Total from './Total'; 
+import Transaction from './Components/Transaction';
 
 
 
@@ -14,25 +12,16 @@ function App() {
             <div className="Menubar">
               <h1>Welcome to Flatiron Bank</h1>
               <h2>Brian Baraza</h2>
-              <h6>Your current balance is:</h6>
-              { <h3><Total /></h3>  }
+            
             
             </div>
         
-    
         <>
-          <FormComponent />
+        <p>Enter your new transaction in the form below</p>
+        <Transaction />
+
         </>
-
-        <>
-          <BalanceComponent />
-        </>
-
-
-
-
-
-        
+   
       </header>
     </div>
   );
