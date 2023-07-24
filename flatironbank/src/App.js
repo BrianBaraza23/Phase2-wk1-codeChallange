@@ -4,6 +4,9 @@ import FormComponent from './Components/Form';
 import BalanceComponent from './Components/BalanceTable';
 import Total from './Total'; 
 
+
+
+
 function App() {
   return (
     <div className="App">
@@ -16,17 +19,14 @@ function App() {
             
             </div>
         
-        <p>
-          New transaction button & form
-        </p>
-
-        <p>
+    
+        <>
           <FormComponent />
-        </p>
+        </>
 
-        <p>
+        <>
           <BalanceComponent />
-        </p>
+        </>
 
 
 
